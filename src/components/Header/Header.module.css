@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  max-width: 700px;
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid var(--header-outline);
+  border-radius: 15px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 4rem;
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+}
+
+.normal .logo {
+  height: 60px;
+}
+
+.bonus .logo {
+  height: 80px;
+}
+
+.scoreBox {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scoreLabel {
+  color: var(--score-text);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.scoreValue {
+  color: var(--dark-text);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
