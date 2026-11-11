@@ -30,7 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Landing Page](./Screenshots/Screenshot%202026-11-10%20192157.png)
+![Rock Paper Scissors Game Rules](./Screenshots/Screenshot%202026-11-10%20192320.png)
+![Rock Paper Scissors](./Screenshots/Screenshot%202026-11-10%20192220.png)
+![Result Page](./Screenshots/Screenshot%202026-11-10%20192305.png)
+![Rock Paper Scissors Lizard Spock Game Rules](./Screenshots/Screenshot%202026-11-10%20192430.png)
+![Rock Paper Scissors Lizard Spock](./Screenshots/Screenshot%202026-11-10%20192348.png)
+![Result Page](./Screenshots/Screenshot%202026-11-10%20192522.png)
+
 
 ### Links
 
@@ -115,8 +122,7 @@ AI tools were used to accelerate certain parts of this project:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- GitHub - [@yourusername](https://github.com/yourusername)
+- GitHub - [@SimeonShileka](https://github.com/SimeonShileka)
 
 ## Acknowledgments
 
