@@ -1,19 +1,16 @@
 # Frontend Mentor - Rock, Paper, Scissors solution
 
-This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -37,12 +34,6 @@ Users should be able to:
 ![Rock Paper Scissors Lizard Spock Game Rules](./Screenshots/Screenshot%202026-11-10%20192430.png)
 ![Rock Paper Scissors Lizard Spock](./Screenshots/Screenshot%202026-11-10%20192348.png)
 ![Result Page](./Screenshots/Screenshot%202026-11-10%20192522.png)
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -93,32 +84,11 @@ const RULES = {
 
 **Simulating computer "thinking"** with `setTimeout` added a satisfying delay before revealing the house's pick.
 
-### Continued development
-
-Areas I want to continue refining in future projects:
-
-- **CSS animations** — the winner glow effect and loading pulse could be more polished with keyframe animations.
-- **Accessibility** — adding proper `aria-label` attributes to the choice buttons and ensuring keyboard navigability.
-- **Component decomposition** — the `App.jsx` component handles a lot; splitting game phases into separate components (`LandingScreen`, `GameBoard`, `ResultsScreen`) would improve readability and testability.
-- **TypeScript** — migrating from JSX to TSX to add type safety to the game state and rules logic.
-
 ### Useful resources
 
 - [React Docs — useState](https://react.dev/reference/react/useState) - Essential reference for initialising state from `localStorage` using a lazy initialiser function.
 - [MDN — localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Helped clarify how `getItem` returns `null` vs. a string, which informed the score parsing logic.
 - [Vite Getting Started](https://vitejs.dev/guide/) - Quick reference for setting up the React + Vite project scaffold.
-
-### AI Collaboration
-
-AI tools were used to accelerate certain parts of this project:
-
-- **Tool used**: Google Antigravity (Gemini / Claude)
-- **How it was used**:
-  - Brainstorming the RULES lookup table structure for the Lizard/Spock bonus mode
-  - Reviewing CSS specificity issues with the `.winner` glow effect
-  - Generating the initial scaffold for the `Header` component
-- **What worked well**: Quickly iterating on the game logic and getting clear explanations of `useEffect` dependency arrays.
-- **What didn't**: AI-generated CSS sometimes needed manual tweaking to match the exact Frontend Mentor design spec, particularly for the pentagonal button layout in bonus mode.
 
 ## Author
 
